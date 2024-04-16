@@ -7,7 +7,7 @@ candidates = []
 votes_received = {}
 
 # Read the CSV file
-with open('election_data.csv', 'r') as file:
+with open('Resources/election_data.csv', 'r') as file:
     csvreader = csv.reader(file)
     next(csvreader)  # Skip the header row
     for row in csvreader:
